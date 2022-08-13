@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Email giảng viên DaLat University</title>
+    <link
+      rel="shortcut icon"
+      href="https://lms.dlu.edu.vn/pluginfile.php/1/theme_lambda/favicon/1644428496/Logo_DLU.png"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <h4>Email giảng viên trường Đại Học Đà Lạt</h4>
+          <div class="form-group">
+            <label>Tên giảng viên (không dấu):</label>
+            <input
+              class="form-control"
+              id="hovaten"
+              placeholder="vd: La Quoc Thang"
+            />
+          </div>
+          <div class="form-group">
+            <label>Emai của giảng viên:</label>
+            <input class="form-control" id="ketqua" disabled />
+          </div>
+          <button type="submit" class="btn btn-primary" onclick="timEmail()">
+            Xác nhận
+          </button>
+          <a href="">
+            <button type="button" class="btn btn-outline-dark">
+              Source code
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
