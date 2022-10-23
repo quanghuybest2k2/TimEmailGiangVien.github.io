@@ -1,3 +1,11 @@
+// key press -> Enter
+var input = document.getElementById("hovaten");
+input.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("btnSubmit").click();
+  }
+});
 function timEmail() {
   let HovaTen = document.getElementById("hovaten").value;
   let chuthuong = HovaTen.toLowerCase();
@@ -21,3 +29,6 @@ function timEmail() {
     return false;
   }
 }
+// function enterHotKey() {
+
+// }
